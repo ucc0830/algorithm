@@ -52,7 +52,7 @@ public class TSP_DPTest {
 			System.out.println( B | (1 << i));
 			dp[cur][B] = Math.min(dp[cur][B], solve(i, B | (1 << i)) + W[cur][i]);
 		}
-
+		//HELLO
 		return dp[cur][B];
 	}
 }
